@@ -79,4 +79,31 @@ public class RestoreIPAddresses_93 {
             }
         }
     }
+    /*
+
+
+	public List<String> restoreIpAddresses(String s) {
+        List<String> ans = new ArrayList();
+        if (s.length() > 3 && s.length() < 13)
+            help(s, new char[s.length()+3], 0, ans, 0, 0);
+        return ans;
+    }
+
+    void help(String s, char[] cs, int count, List<String> ans, int start, int i){
+        int digit = 0;
+        for (int l = start; l < 3+start && l < s.length(); l++){
+            digit = 10*digit + (s.charAt(l)-'0');
+            if (digit > 255) return;
+            cs[i++] = s.charAt(l);
+            if (count == 3){
+                if (l+1==s.length()) ans.add(new String(cs));
+            }else{
+                cs[i] = '.';
+                help(s, cs, count+1, ans, l+1, i+1);
+            }
+            if (digit == 0) return;
+        }
+    }
+
+     */
 }
