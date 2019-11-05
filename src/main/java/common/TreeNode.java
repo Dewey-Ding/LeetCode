@@ -1,6 +1,5 @@
-package main.java.common;
+package common;
 
-import main.java.medium.BinaryTreeInorderTraversal_94;
 
 /**
  * @author dewey

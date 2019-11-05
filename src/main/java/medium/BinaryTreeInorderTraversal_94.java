@@ -1,7 +1,8 @@
-package main.java.medium;
+package medium;
 
-import main.java.common.TreeNode;
-import main.java.common.Printer;
+
+import common.TreeNode;
+import common.Printer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +20,6 @@ public class BinaryTreeInorderTraversal_94 {
         }
         treeNodes[0].right = treeNodes[1];
         treeNodes[1].left = treeNodes[2];
-        Printer.printTree(treeNodes[0]);
         List<Integer> list = inorderTraversal(treeNodes[0]);
         System.out.println(list.toString());
     }

@@ -1,7 +1,8 @@
-package main.java.medium;
+package medium;
 
-import main.java.common.TreeNode;
-import main.java.common.Printer;
+
+import common.TreeNode;
+import common.Printer;
 
 import java.util.ArrayList;
 import java.util.List;

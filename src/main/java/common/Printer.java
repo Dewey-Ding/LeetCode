@@ -1,4 +1,6 @@
-package main.java.common;
+package common;
+
+import common.TreeNode;
 
 /**
  * @author dewey

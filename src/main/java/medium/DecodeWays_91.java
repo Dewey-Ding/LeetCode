@@ -1,4 +1,4 @@
-package main.java.medium;
+package medium;
 
 /**
  * @author dewey
